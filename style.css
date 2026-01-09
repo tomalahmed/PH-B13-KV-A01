@@ -327,3 +327,29 @@ img {
     width: 20px;
     height: 20px;
 }
+
+.early-access-section {
+    background-color: #efe3e3;
+    text-align: center;
+    padding: 80px 20px;
+    margin:100px 185px 100px 185px;
+    
+}
+
+.cta-container p{
+    font-size: smaller;
+    color: var(--text-gray);
+}
+.cta-container {
+    margin-bottom: 25px;
+}
+
+.large-btn{
+    margin: 20px 20px 20px 20px;
+    padding: 15px 30px;
+}
+
+.p-small{
+    font-size: smaller;
+     color: var(--text-gray);
+}
