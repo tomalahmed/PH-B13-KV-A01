@@ -353,3 +353,40 @@ img {
     font-size: smaller;
      color: var(--text-gray);
 }
+
+
+.footer-container {
+    background-color: var(--text-dark);
+    color: var(--white);
+    padding: 60px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links ul {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+
+}
+
+.footer-links ul li i {
+    font-size: small;
+    cursor: pointer;
+   
+}
+
+.footer-logo {
+    margin-left: 120px;
+}
+
+.footer-links p{
+    font-size: small;
+    text-align: right;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-right: 120px;
+    font-size: small;
+}
