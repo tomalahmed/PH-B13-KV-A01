@@ -1,0 +1,43 @@
+@media (max-width: 848px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .second-brain-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-side,
+  .content-side {
+    margin: 0;
+  }
+
+  .nav {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .split-layout {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .content-side h2 {
+    font-size: 28px;
+  }
+
+  .content-side {
+    max-width: 100%;
+  }
+}
